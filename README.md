@@ -68,8 +68,6 @@ while True:
         print("\nThank You for Using Smart Waste Segregation System")
         break
 📊 Sample Output
-<details>
-<summary>▶ Click here to view the output</summary>
 
 ♻️ SMART WASTE SEGREGATION SYSTEM ♻️
 -----------------------------------
