@@ -17,10 +17,139 @@ This project is an automated system designed to identify and sort waste into fou
 * **Real-time Processing:** Python-based logic for instant sorting.
 
   ## ⚙️ How It Works
-> "Smart sorting logic for efficient waste management."
 
 * **Step 1: Input** – The user enters the name of the waste item into the system interface.
 * **Step 2: Analysis** – The Python program checks the item against a pre-defined waste category database.
 * **Step 3: Identification** – The system identifies if the item is **Dry, Wet, Hazardous, or E-waste**.
 * **Step 4: Selection** – The correct bin for disposal is suggested to the user automatically.
 * **Step 5: Instruction** – Specific disposal instructions are displayed to ensure safe handling.
+
+  https://github.com/MeruguSrujana/smart-waste-segregation-system/blob/main/file_000000001b1c7207baff0039d25d0eea.png?raw=true
+  ## 💻 Code
+
+Run the program:
+
+```python
+# ♻️ Smart Waste Segregation System – Complete Python Project
+
+# Full Python Code
+
+```python
+# Smart Waste Segregation System
+
+# Waste database
+waste_data = {
+    "banana peel": {
+        "category": "Wet Waste",
+        "bin": "Green Bin",
+        "message": "Can be used for composting."
+    },
+
+    "vegetable waste": {
+        "category": "Wet Waste",
+        "bin": "Green Bin",
+        "message": "Biodegradable waste."
+    },
+
+    "food waste": {
+        "category": "Wet Waste",
+        "bin": "Green Bin",
+        "message": "Suitable for compost preparation."
+    },
+
+    "paper": {
+        "category": "Dry Waste",
+        "bin": "Blue Bin",
+        "message": "Can be recycled."
+    },
+
+    "plastic bottle": {
+        "category": "Dry Waste",
+        "bin": "Blue Bin",
+        "message": "Send for recycling."
+    },
+
+    "cardboard": {
+        "category": "Dry Waste",
+        "bin": "Blue Bin",
+        "message": "Reusable and recyclable material."
+    },
+
+    "battery": {
+        "category": "Hazardous Waste",
+        "bin": "Red Bin",
+        "message": "Do not dispose with normal household waste."
+    },
+
+    "medicine": {
+        "category": "Hazardous Waste",
+        "bin": "Red Bin",
+        "message": "Dispose safely to avoid contamination."
+    },
+
+    "chemical": {
+        "category": "Hazardous Waste",
+        "bin": "Red Bin",
+        "message": "Handle carefully and avoid direct contact."
+    },
+
+    "charger": {
+        "category": "E-Waste",
+        "bin": "Black Bin",
+        "message": "Electronic waste should be recycled separately."
+    },
+
+    "mobile phone": {
+        "category": "E-Waste",
+        "bin": "Black Bin",
+        "message": "Contains electronic components for recycling."
+    },
+
+    "wire": {
+        "category": "E-Waste",
+        "bin": "Black Bin",
+        "message": "Dispose at e-waste collection centers."
+    }
+}
+
+print("♻️ SMART WASTE SEGREGATION SYSTEM ♻️")
+print("-----------------------------------")
+
+while True:
+    item = input("\nEnter waste item: ").lower()
+
+    if item in waste_data:
+        print("\nWaste Identified Successfully")
+        print("-----------------------------------")
+        print("Waste Type :", waste_data[item]["category"])
+        print("Put in     :", waste_data[item]["bin"])
+        print("Suggestion :", waste_data[item]["message"])
+
+    else:
+        print("\nItem not found in database.")
+        print("Please enter a valid waste item.")
+
+    choice = input("\nDo you want to continue? (yes/no): ").lower()
+
+    if choice != "yes":
+        print("\nThank You for Using Smart Waste Segregation System")
+        break
+```
+---
+
+# Sample Output
+
+```text
+♻️ SMART WASTE SEGREGATION SYSTEM ♻️
+-----------------------------------
+
+Enter waste item: battery
+
+Waste Identified Successfully
+-----------------------------------
+Waste Type : Hazardous Waste
+Put in     : Red Bin
+Suggestion : Do not dispose with normal household waste.
+```
+
+
