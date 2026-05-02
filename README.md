@@ -67,5 +67,24 @@ while True:
     if choice != "yes":
         print("\nThank You for Using Smart Waste Segregation System")
         break
+📊 Sample Output
+<details>
+<summary>▶ Click here to view the output</summary>
+
+♻️ SMART WASTE SEGREGATION SYSTEM ♻️
+-----------------------------------
+
+Enter waste item: battery
+
+Waste Identified Successfully
+-----------------------------------
+Waste Type : Hazardous Waste
+Put in     : Red Bin
+Suggestion : Do not dispose with normal household waste.
+
+Do you want to continue? (yes/no): no
+
+Thank You for Using Smart Waste Segregation System
+
 
 
