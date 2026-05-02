@@ -24,7 +24,7 @@ This project is an automated system designed to identify and sort waste into fou
 * **Step 4: Selection** – The correct bin for disposal is suggested to the user automatically.
 * **Step 5: Instruction** – Specific disposal instructions are displayed to ensure safe handling.
 
-  https://github.com/MeruguSrujana/smart-waste-segregation-system/blob/main/file_000000001b1c7207baff0039d25d0eea.png?raw=true
+  ![System Design](https://github.com/MeruguSrujana/smart-waste-segregation-system/blob/main/file_000000001b1c7207baff0039d25d0eea.png?raw=true)
   ## 💻 Code
 
 Run the program:
