@@ -70,7 +70,7 @@ while True:
 ```
 
 ## 📊 Sample Output
-
+<details>
 <summary>Click to view the system in action</summary>
 
 
