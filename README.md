@@ -85,4 +85,8 @@ Do you want to continue? (yes/no): no
 Thank You for Using Smart Waste Segregation System
 
 
+##✅ Conclusion
+The Smart Waste Segregation System is a Python-based project that helps users identify and dispose of waste correctly using a 4-bin system. It promotes recycling, environmental awareness, and proper waste management while supporting clean and smart city initiatives.
+
+
 
