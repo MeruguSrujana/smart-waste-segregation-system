@@ -68,20 +68,8 @@ while True:
         print("\nThank You for Using Smart Waste Segregation System")
         break
 '''
-
- ## 📊 Sample Output
-
-<details>
-<summary>Click to view the system in action</summary>
-
-> **Note:** Below is a demonstration of how the system identifies hazardous waste.
-
-* **Waste Item Entered:** `battery`
-* **Status:** Waste Identified Successfully
-* **Category:** Hazardous Waste
 ## 📊 Sample Output
 
-<details>
 <summary>Click to view the system in action</summary>
 
 
@@ -89,7 +77,6 @@ while True:
 * **Status:** Waste Identified Successfully
 * **Category:** Hazardous Waste
 
-</details>
 
 ---
 
