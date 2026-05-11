@@ -67,26 +67,33 @@ while True:
     if choice != "yes":
         print("\nThank You for Using Smart Waste Segregation System")
         break
-📊 Sample Output
 
-♻️ SMART WASTE SEGREGATION SYSTEM ♻️
------------------------------------
+ ## 📊 Sample Output
 
-Enter waste item: battery
+<details>
+<summary>Click to view the system in action</summary>
 
-Waste Identified Successfully
------------------------------------
-Waste Type : Hazardous Waste
-Put in     : Red Bin
-Suggestion : Do not dispose with normal household waste.
+> **Note:** Below is a demonstration of how the system identifies hazardous waste.
 
-Do you want to continue? (yes/no): no
+* **Waste Item Entered:** `battery`
+* **Status:** Waste Identified Successfully
+* **Category:** Hazardous Waste
+## 📊 Sample Output
 
-Thank You for Using Smart Waste Segregation System
+<details>
+<summary>Click to view the system in action</summary>
 
 
-##✅ Conclusion
-The Smart Waste Segregation System is a Python-based project that helps users identify and dispose of waste correctly using a 4-bin system. It promotes recycling, environmental awareness, and proper waste management while supporting clean and smart city initiatives.
+* **Waste Item Entered:** `battery`
+* **Status:** Waste Identified Successfully
+* **Category:** Hazardous Waste
+
+</details>
+
+---
+
+## ✅ Conclusion
+The **Smart Waste Segregation System** is a Python-based project designed to help users identify and sort waste efficiently. By categorizing items into specific bins, it promotes environmental sustainability and ensures hazardous materials are handled correctly.
 
 
 
