@@ -67,7 +67,8 @@ while True:
     if choice != "yes":
         print("\nThank You for Using Smart Waste Segregation System")
         break
-'''
+```
+
 ## 📊 Sample Output
 
 <summary>Click to view the system in action</summary>
