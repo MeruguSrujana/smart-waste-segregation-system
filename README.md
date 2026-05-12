@@ -68,7 +68,7 @@ while True:
         print("\nThank You for Using Smart Waste Segregation System")
         break
 ```
-
+</details>
 ## 📊 Sample Output
 
 
