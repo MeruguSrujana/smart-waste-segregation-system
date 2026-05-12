@@ -70,16 +70,12 @@ while True:
 ```
 
 ## 📊 Sample Output
-<details>
-<summary>Click to view the system in action</summary>
 
 
 * **Waste Item Entered:** `battery`
 * **Status:** Waste Identified Successfully
 * **Category:** Hazardous Waste
 
-
----
 
 ## ✅ Conclusion
 The **Smart Waste Segregation System** is a Python-based project designed to help users identify and sort waste efficiently. By categorizing items into specific bins, it promotes environmental sustainability and ensures hazardous materials are handled correctly.
