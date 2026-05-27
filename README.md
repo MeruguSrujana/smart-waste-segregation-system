@@ -3,7 +3,7 @@
 ## 📌 Description
 This project is an automated system designed to identify and sort waste into four categories: Dry, Wet, Hazardous, and E-waste. 
 
-## 🎯 Objectives
+## 🎯 Aim of the Project 
 * To identify different categories of waste materials.
 * To help users dispose of waste correctly using a 4-bin system.
 * To reduce improper waste disposal.
